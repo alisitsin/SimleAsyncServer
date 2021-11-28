@@ -1,4 +1,4 @@
-# Simple Async Service
+# Simple Async Server
 This example shows the basic way to implement async server which can handle requests simultaneously.
 
 It might be not really obvious that **aiohttp** does support async but doesn't support parallel handling out of the box.
@@ -16,5 +16,6 @@ This example shows principle difference between new the approach and the old one
 1. Send different sleep requests
 2. Try to reach status or other endpoint  
 
-*Keywords*
+*Keywords:* 
+
 aiohttp, asyncio, threads, threading, python3.9, parallel requests handling
