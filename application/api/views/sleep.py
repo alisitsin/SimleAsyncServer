@@ -19,7 +19,7 @@ class AsyncSleepView(GetView):
 
     async def compute(self):
         sleep = self._from_query("sleep")
-        # awaitable sleep
+        # should use exactly awaitable function
         await asyncio.sleep(int(sleep))
         return {"async-sleep": sleep}
 
